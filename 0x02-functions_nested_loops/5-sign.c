@@ -7,11 +7,11 @@
  * Return: 1 if +, 0 if 0 and -1 if -
 */
 
-int pribt_sign(int n)
+int print_sign(int n)
 {
 	if (n> 0)
 	{
-		_putchat(43);
+		_putchar(43);
 		return (1);
 	}
 	else if (n == 0)
