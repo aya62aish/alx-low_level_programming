@@ -1,4 +1,4 @@
-#include"main.h"
+#include"Main.h"
 /**
  *_memset - fill a block of memory with a specific value
  * @s: starting address of memory to be filled
@@ -18,3 +18,4 @@ char *_memset(char *s, char b, unsigned int n)
         }
         return (s);
 }
+
